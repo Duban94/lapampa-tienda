@@ -1,4 +1,4 @@
-; Script de Inno Setup: genera Instalar_LaPampa.exe (se compila con CREAR_INSTALADOR.bat)
+; Script de Inno Setup: genera Instalar_LaPampa.exe (se compila con crear_instalador.bat)
 [Setup]
 AppName=La Pampa
 AppVersion=2.1

@@ -27,8 +27,8 @@ python app.py             # abre http://127.0.0.1:5055
 Sin `crear_demo.py` arranca con la base vacía. Los datos viven en `lapampa.db` junto al programa (ignorado por git).
 
 ## Crear el instalador de Windows
-En un PC con Windows e internet, doble clic en `CREAR_INSTALADOR.bat` (usa PyInstaller e Inno Setup).
-Genera `Instalador\Instalar_LaPampa.exe`. Detalles y cómo actualizar sin perder datos: [`LEEME.txt`](LEEME.txt).
+En un PC con Windows e internet, doble clic en `crear_instalador.bat` (usa PyInstaller e Inno Setup).
+Genera `Instalador\Instalar_LaPampa.exe`. Detalles y cómo actualizar sin perder datos: [`leeme.txt`](leeme.txt).
 
 ## Adaptarlo a tu negocio
 - Medios de pago: `app.py` (`venta()`) y `templates/index.html` (botones `.mp`).

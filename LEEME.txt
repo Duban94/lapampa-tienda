@@ -1,7 +1,7 @@
 LA PAMPA - Control de la tienda
 
 INSTALAR EN EL PC DE LA TIENDA (Windows)
- 1. En un PC con Windows e internet: doble clic en CREAR_INSTALADOR.bat (una sola vez; tarda unos minutos).
+ 1. En un PC con Windows e internet: doble clic en crear_instalador.bat (una sola vez; tarda unos minutos).
     Crea Instalador\Instalar_LaPampa.exe  (incluye el historial que haya en lapampa.db en ese momento).
  2. Copia Instalar_LaPampa.exe al PC de la tienda y dale doble clic.
     Se instala solo y deja el icono "La Pampa" en el Escritorio. Para usarlo: doble clic en ese icono.
@@ -11,7 +11,7 @@ INSTALAR EN EL PC DE LA TIENDA (Windows)
 ACTUALIZAR UN COMPUTADOR QUE YA TIENE LA PAMPA (sin perder datos)  - version 2.1
  0. Regla de oro: antes de tocar nada, cierra La Pampa y COPIA el archivo lapampa.db del programa viejo
     a una memoria USB o a otra carpeta. Con esa copia nada se puede perder.
- 1. Si el programa viejo se abre con INICIAR.bat (carpeta con app.py): copia encima el app.py y la carpeta
+ 1. Si el programa viejo se abre con iniciar.bat (carpeta con app.py): copia encima el app.py y la carpeta
     templates nuevos. NO toques lapampa.db. Al abrir, el programa se actualiza solo (guarda antes una copia
     "antes-de-actualizar" en Respaldos).
  2. Si el programa viejo es LaPampa.exe (carpeta dist): dos opciones
@@ -33,7 +33,7 @@ DONDE QUEDAN LOS DATOS (version instalada)
  La base de datos se copia ahi solo la primera vez; reinstalar o desinstalar no la borra.
 
 PRUEBAS SIN INSTALAR
- Windows: doble clic en INICIAR.bat (necesita Python).   Mac: INICIAR_MAC.command (clic derecho > Abrir).
+ Windows: doble clic en iniciar.bat (necesita Python).   Mac: iniciar_mac.command (clic derecho > Abrir).
 
 COPIAS DE SEGURIDAD
 - Automaticas cada 30 minutos en la carpeta "Respaldos" (guarda las ultimas 30).
