@@ -1,0 +1,46 @@
+LA PAMPA - Control de la tienda
+
+INSTALAR EN EL PC DE LA TIENDA (Windows)
+ 1. En un PC con Windows e internet: doble clic en CREAR_INSTALADOR.bat (una sola vez; tarda unos minutos).
+    Crea Instalador\Instalar_LaPampa.exe  (incluye el historial que haya en lapampa.db en ese momento).
+ 2. Copia Instalar_LaPampa.exe al PC de la tienda y dale doble clic.
+    Se instala solo y deja el icono "La Pampa" en el Escritorio. Para usarlo: doble clic en ese icono.
+ 3. Para apagarlo: cerrar la ventanita "La Pampa esta funcionando" (hace una copia de seguridad).
+ Actualizar: se genera un instalador nuevo y se instala encima; los datos NO se pierden.
+
+ACTUALIZAR UN COMPUTADOR QUE YA TIENE LA PAMPA (sin perder datos)  - version 2.1
+ 0. Regla de oro: antes de tocar nada, cierra La Pampa y COPIA el archivo lapampa.db del programa viejo
+    a una memoria USB o a otra carpeta. Con esa copia nada se puede perder.
+ 1. Si el programa viejo se abre con INICIAR.bat (carpeta con app.py): copia encima el app.py y la carpeta
+    templates nuevos. NO toques lapampa.db. Al abrir, el programa se actualiza solo (guarda antes una copia
+    "antes-de-actualizar" en Respaldos).
+ 2. Si el programa viejo es LaPampa.exe (carpeta dist): dos opciones
+    a) Reemplaza LaPampa.exe por el nuevo. El lapampa.db que esta junto al .exe se sigue usando. Cero riesgo.
+    b) Usa Instalar_LaPampa.exe (deja el icono en el Escritorio). El programa arranca con el historial que
+       tenia el instalador; para traer lo mas reciente abre La Pampa > Respaldo > "Cargar datos de una copia"
+       y elige el lapampa.db viejo que guardaste en el paso 0.
+ 3. Revisa en Estadisticas que las ventas y deudas sean las de siempre. En la esquina superior aparece
+    "version 2.1" cuando el programa nuevo esta funcionando.
+ 4. Deja la carpeta del programa viejo unos dias por si acaso.
+ Si algo falla: Respaldo > "Cargar datos de una copia" y elige cualquiera de los archivos de la carpeta Respaldos.
+ Los errores quedan anotados en LaPampa.log (junto a lapampa.db).
+
+IMPORTAR DIAS DESDE EXCEL: boton "Importar Excel" (arriba). Elige el Excel (hojas de ventas y gastos, como el Ventas.xlsb),
+ las fechas, mira la comparacion y confirma. Antes de guardar hace una copia de seguridad.
+
+DONDE QUEDAN LOS DATOS (version instalada)
+ C:\Users\<usuario>\AppData\Local\LaPampa\   (lapampa.db y carpeta Respaldos)
+ La base de datos se copia ahi solo la primera vez; reinstalar o desinstalar no la borra.
+
+PRUEBAS SIN INSTALAR
+ Windows: doble clic en INICIAR.bat (necesita Python).   Mac: INICIAR_MAC.command (clic derecho > Abrir).
+
+COPIAS DE SEGURIDAD
+- Automaticas cada 30 minutos en la carpeta "Respaldos" (guarda las ultimas 30).
+- Para la nube: boton "Respaldo" (arriba a la derecha) y pega la ruta de tu carpeta
+  de Google Drive u OneDrive. Asi cada copia tambien queda en linea.
+- No pongas lapampa.db dentro de la carpeta sincronizada: usa las copias.
+
+LETRA GRANDE: botones A- y A+ arriba a la derecha (se recuerda el tamano elegido).
+HORA: cada registro nuevo guarda su hora (solo cuando se registra en el dia de hoy), para analizar horas pico.
+El boton "Exportar a Excel" descarga ventas, pagos, creditos, equipos y mantenimientos en un .xlsx.

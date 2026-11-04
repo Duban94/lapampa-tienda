@@ -1,0 +1,13 @@
+# Datos reales del negocio: NUNCA se suben
+*.db
+Respaldos/
+config.json
+LaPampa.log
+# Generados al compilar
+build/
+dist/
+Instalador/
+*.spec
+__pycache__/
+.venv/
+.DS_Store
