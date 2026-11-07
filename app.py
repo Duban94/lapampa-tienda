@@ -2,7 +2,7 @@ import os, sys, json, sqlite3, threading, webbrowser, socket, time, io, glob, sh
 from datetime import datetime, timedelta
 from flask import Flask, render_template, request, jsonify, send_file
 
-VERSION = '2.1'
+VERSION = '2.2'
 FROZEN = getattr(sys, 'frozen', False)
 if FROZEN:  # sin consola (--windowed) stdout/stderr no existen
     if sys.stdout is None: sys.stdout = open(os.devnull, 'w')

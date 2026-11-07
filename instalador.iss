@@ -1,7 +1,7 @@
 ; Script de Inno Setup: genera Instalar_LaPampa.exe (se compila con crear_instalador.bat)
 [Setup]
 AppName=La Pampa
-AppVersion=2.1
+AppVersion=2.2
 AppPublisher=La Pampa
 DefaultDirName={localappdata}\Programs\LaPampa
 DisableDirPage=yes

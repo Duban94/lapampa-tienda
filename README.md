@@ -26,7 +26,11 @@ python app.py             # abre http://127.0.0.1:5055
 ```
 Sin `crear_demo.py` arranca con la base vacía. Los datos viven en `lapampa.db` junto al programa (ignorado por git).
 
-## Crear el instalador de Windows
+## Instalador de Windows (sin instalar nada más)
+Descarga `Instalar_LaPampa.exe` de la pestaña **Releases** de este repositorio (lo construye GitHub Actions). Se instala encima de la versión anterior sin tocar los datos.
+Windows puede mostrar el aviso "SmartScreen" porque el programa no está firmado: *Más información → Ejecutar de todas formas*.
+
+## Crear el instalador tú mismo
 En un PC con Windows e internet, doble clic en `crear_instalador.bat` (usa PyInstaller e Inno Setup).
 Genera `Instalador\Instalar_LaPampa.exe`. Detalles y cómo actualizar sin perder datos: [`leeme.txt`](leeme.txt).
 
